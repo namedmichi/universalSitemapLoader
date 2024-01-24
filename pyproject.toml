@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 [project]
 name = "universal_sitemap_loader"
-version = "0.0.2"
+version = "1.0.0"
 authors = [
   { name="Michael Selbertinger", email="info@michael-selbertinger.de" },
 ]
@@ -29,3 +29,5 @@ classifiers = [
 dependencies = [
     "requests>=2.30.0",
 ]
+[project.urls]
+Source = "https://github.com/namedmichi/universalSitemapLoader"
