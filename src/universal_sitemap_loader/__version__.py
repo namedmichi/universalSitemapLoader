@@ -1,0 +1,6 @@
+__title__ = "universalSitemapLoader"
+__description__ = "Find the sitemap no matter where it is."
+__version__ = "0.0.1"
+__author__ = "Michael Selbertinger"
+__author_email__ = "info@michael-selbertinger.de"
+__license__ = "GPLv3"
