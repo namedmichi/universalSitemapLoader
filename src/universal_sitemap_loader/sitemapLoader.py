@@ -20,7 +20,7 @@ class UniversalSitemapLoader:
 
     def try_url(self, path):
         try:
-            response = requests.get(path)
+            response = requests.get(path, headers={'User-Agent': 'Mozilla/5.0'})
             if response.status_code == 200:
                 return response
         except requests.RequestException:
@@ -123,5 +123,5 @@ Usage::
 
 if __name__ == '__main__':
 
-    loader = UniversalSitemapLoader("https://www.tiroled.com/")
+    loader = UniversalSitemapLoader("https://www.ecoservice24.com")
     sitemap = loader.find_sitemap()
